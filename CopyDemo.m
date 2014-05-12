@@ -16,6 +16,7 @@ NSLog(@"string");
 Result:
 2014-05-12 10:35:58.539 CopyDemo[923:303] array.retainCount : 3
 
+//Debug:
 Printing description of array:
 <__NSArrayI 0x100108200>(
 one,
@@ -56,7 +57,7 @@ NSMutableArray *array3 = [array mutableCopy];
 //Breakpoint here
 NSLog(@"");  
 
-Debug:
+//Debug:
 Printing description of array:
 <__NSArrayM 0x10010a5f0>(
 one,
